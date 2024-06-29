@@ -1,4 +1,4 @@
-# Resume Creator(just an m.v.p, not a final product)
+# Resume Creator
 
 **Resume Creator** is a web application built using the React-pdf library that allows users to create, preview, and download resumes in PDF format.
 
