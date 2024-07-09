@@ -24,7 +24,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/resume-creator.git
+   git clone [https://github.com/videoman496/resume-creator.git](https://github.com/videoman496/resume-creator.git)
 2. Navigate to the project directory:
    ```bash
    cd resume-creator
