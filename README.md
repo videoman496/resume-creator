@@ -14,7 +14,6 @@ React, React-PDF
 
 ## Future Plans
 - **Modifiable Sections**: Easily update and customize different sections of your resume.
-- **Styling Enhancements**: More styling options to make your resume visually appealing.
 - **Customization Options**: Additional customization features to tailor your resume to your needs.
 - **UI Improvements**: Improved user interface for a better user experience.
 - **Backend Part**
