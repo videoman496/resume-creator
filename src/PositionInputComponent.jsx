@@ -11,12 +11,13 @@ function PositionInputComponent({ onInputChange }) {
   };
 
   return (
-    <div>
+    <div className="input-container">
       <input
         type="text"
         value={positionInputValue}
         onChange={handlePositionChange}
-        placeholder="Enter your name"
+        placeholder="Enter the position"
+        className="styled-input"
       />
     </div>
   );

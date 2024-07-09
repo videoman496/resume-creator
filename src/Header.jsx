@@ -23,9 +23,9 @@ function App() {
   };
 
   return (
-    <div>
+    <div style={{marginTop:50}}>
       <div style={{ display: "flex", marginBottom: "20px" }}>
-        <div style={{ flex: 1 }}>
+        <div style={{ marginRight:100 }}>
           <NameInputComponent onInputChange={handleNameChange} />
         </div>
         <div style={{ flex: 1 }}>
@@ -34,15 +34,15 @@ function App() {
       </div>
 
       <div style={{ display: "flex" }}>
-        <div style={{ flex: 1 }}>
+        <div style={{ marginRight:100 }}>
           <PositionInputComponent onInputChange={handlePositionChange} />
         </div>
-        <div className="pdf-content" style={{ flex: 1, padding: 15 }}>
+        <div className="pdf-content" style={{ flex: 1 }}>
           Position<PositionDisplayComponent displayPositionValue={positionValue} />
         </div>
       </div>
       <div style={{ display: "flex" }}>
-        <div style={{ flex: 1 }}>
+        <div style={{ marginRight:100 }}>
           <SummaryInputComponent onInputChange={handleSummaryChange} />
         </div>
         <div className="pdf-content" style={{ flex: 1 }}>

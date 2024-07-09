@@ -11,12 +11,14 @@ function SummaryInputComponent({ onInputChange }) {
   };
 
   return (
-    <div>
+    <div className="input-container">
       <textarea
         type="text"
         value={positionInputValue}
         onChange={handlePositionChange}
-        placeholder="Enter your name"
+        placeholder="Enter the summary"
+        rows="15"
+        cols="39"
       />
     </div>
   );

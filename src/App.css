@@ -1,3 +1,4 @@
+
 body, html {
   margin: 0;
   padding: 0;
@@ -5,31 +6,79 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
 }
 
+
 .container {
-  border: 1px solid #ffffff;
   display: flex;
   width: 80vw;
   height: 100vh;
 }
 
-.left, .right {
-  width: 50%;
-  height: 100%;
+.input-container {
+  width: 300px;
+  margin-bottom: 30px;
 }
 
-.left {
-  background-color: #ffffff00; /* Example background color for the left side */
-}
-
-.right {
-  background-color: #ffffff00; /* Example background color for the right side */
-}
 
 .line {
   width: 3px;
-  color: rgb(236, 0, 0); /* Color of the vertical line */
   height: 100vh;
+  color: rgb(236, 0, 0);
   z-index: 0;
+}
+
+
+.styled-input,
+.styled-textarea {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.styled-input:focus,
+.styled-textarea:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+  outline: none;
+}
+
+.styled-input::placeholder,
+.styled-textarea::placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+textarea {
+  resize: none;
+}
+
+
+.pdf-content {
+  width: 500px;
+}
+
+#pdf-preview {
+  margin: 0 5vw 0 auto;
+  position: relative;
+}
+
+
+.PDFButton {
+  position: fixed;
+  bottom: 20vh;
+  right: 50vw;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
